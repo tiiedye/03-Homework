@@ -25,6 +25,7 @@ var generateBtn = document.querySelector("#generate");
       if (numeric) {
         generatePassword.push("0", "1", "2", "3", "4", "5", "6", "7", "8", "9")
       }
+      
       var password = "";
 
       for (var i = 0; i < 10; i++) {
